@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Plus_Jakarta_Sans, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
@@ -37,7 +37,11 @@ export const metadata: Metadata = {
   },
   robots: 'index, follow',
   metadataBase: new URL('https://mimilcorner.com'),
-  viewport: { width: 'device-width', initialScale: 1 },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
   themeColor: '#FBF8F3',
 };
 
