@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[85vh] overflow-hidden bg-darkNeutral"
+      className="relative min-h-[95vh] overflow-hidden bg-darkNeutral"
     >
       <Image
         src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=1920&q=80"

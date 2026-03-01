@@ -35,10 +35,9 @@ export function Kontak() {
             </p>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden bg-creamDark sm:aspect-video">
-            {/* Ganti src dengan embed URL dari Google Maps (Share → Sematkan peta) */}
             <iframe
               title="Lokasi MIMILCORNER - Landungsari, Dau, Malang"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.364194604959!2d112.619274!3d-7.966191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd628e2d7b2f39f%3A0x5f4646e1a2e4e4e4!2sMalang%2C%20Malang%20City%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1709251200000"
+           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d240.58013501206975!2d112.58967926383856!3d-7.930020598645039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sid!2sid!4v1772379998678!5m2!1sid!2sid"
               className="absolute inset-0 h-full w-full border-0"
               allowFullScreen
               loading="lazy"
