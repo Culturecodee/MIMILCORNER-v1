@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   robots: 'index, follow',
-  metadataBase: new URL('https://mimilcorner.com'),
+  metadataBase: new URL('https://mimilcorner-v2.vercel.app'),
 };
 
 export const viewport: Viewport = {
@@ -52,6 +52,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" className={`${plusJakarta.variable} ${playfair.variable}`}>
+      <meta name="google-site-verification" content="_9cfCOJ2Kzrah7LDD7vJsFO1EhhHhhx-zh5WWmcshvE" />
       <body className="min-h-screen bg-cream font-sans">
         <Header />
         <main>{children}</main>
